@@ -1,0 +1,648 @@
+/* body section (start) */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Body section (end) */
+
+
+/* Blog wordpress management (start) */
+
+.blog-img{
+    width: 420px;
+    margin: auto;
+    display: block;
+    margin-top: 180px;
+}
+
+
+
+
+.blog-head {
+    color: black;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 66px;
+    margin-top: 173px;
+}
+
+
+.blog-p{
+    color: black;
+    font-size: 13px;
+    width: 519px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+@media  screen and (max-width: 1230px){
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 47px;
+        margin-left: 83px;
+        line-height: 66px;
+        margin-top: 173px;
+    }
+
+    .blog-p {
+        color: black;
+        font-size: 13px;
+        width: 383px;
+        margin-left: 85px;
+        margin-top: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .blog-img {
+        width: 420px;
+        margin: auto;
+        margin-left: 10px;
+        display: block;
+        margin-top: 207px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 38px;
+        margin-left: 83px;
+        line-height: 59px;
+        margin-top: 169px;
+    }
+}
+
+@media screen and (max-width: 1049px){
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 38px;
+        margin-left: 55px;
+        line-height: 59px;
+        margin-top: 169px;
+    }
+
+    .blog-p {
+        color: black;
+        font-size: 13px;
+        width: 383px;
+        margin-left: 55px;
+        margin-top: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .blog-img {
+        width: 420px;
+        margin: auto;
+        margin-left: 59px;
+        display: block;
+        margin-top: 130px;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .blog-img {
+        width: 369px;
+        margin: auto;
+        margin-left: 20px;
+        display: block;
+        margin-top: 97px;
+    }
+
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 38px;
+        margin-left: 20px;
+        width: 452px;
+        line-height: 59px;
+        margin-top: 169px;
+    }
+
+
+    .blog-p {
+        color: black;
+        font-size: 13px;
+        width: 383px;
+        margin-left: 20px;
+        margin-top: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 34px;
+        margin-left: 20px;
+        width: 452px;
+        line-height: 55px;
+        margin-top: 133px;
+    }
+}
+
+@media screen and (max-width: 469px){
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 35px;
+        margin-left: 20px;
+        width: 329px;
+        line-height: 54px;
+        margin-top: 133px;
+    }
+
+    .blog-p {
+        color: black;
+        font-size: 13px;
+        width: 283px;
+        margin-left: 20px;
+        margin-top: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .blog-img {
+        width: 303px;
+        margin: auto;
+        margin-left: 20px;
+        display: block;
+        margin-top: 96px;
+    }
+}
+
+@media screen and (max-widh: 390px){
+    
+    .blog-p {
+        color: black;
+        font-size: 13px;
+        width: 283px;
+        margin-left: 14px;
+        margin-top: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .blog-img {
+        width: 279px;
+        margin: auto;
+        margin-left: 20px;
+        display: block;
+        margin-top: 80px;
+    }
+
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 32px;
+        margin-left: 15px;
+        width: 329px;
+        line-height: 49px;
+        margin-top: 133px;
+    }
+
+}
+
+@media screen and (max-width: 388px){
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 33px;
+        margin-left: 15px;
+        width: 329px;
+        line-height: 51px;
+        margin-top: 133px;
+    }
+
+    .blog-p {
+        color: black;
+        font-size: 12px;
+        width: 283px;
+        margin-left: 15px;
+        margin-top: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .blog-img {
+        width: 256px;
+        margin: auto;
+        margin-left: 20px;
+        display: block;
+        margin-top: 77px;
+    }
+}
+
+@media screen and (max-width: 363px){
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 28px;
+        margin-left: 15px;
+        width: 269px;
+        line-height: 47px;
+        margin-top: 133px;
+    }
+}
+
+@media screen and (max-width: 334px){
+    .blog-p {
+        color: black;
+        font-size: 12px;
+        width: 254px;
+        margin-left: 15px;
+        margin-top: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+
+}
+
+
+@media screen and (max-width: 323px){
+    .blog-head {
+        color: black;
+        font-weight: 700;
+        font-size: 27px;
+        margin-left: 15px;
+        width: 258px;
+        line-height: 47px;
+        margin-top: 133px;
+    }
+
+    .blog-p {
+        color: black;
+        font-size: 12px;
+        width: 254px;
+        margin-left: 15px;
+        margin-top: 21px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .blog-img {
+        width: 232px;
+        margin: auto;
+        margin-left: 20px;
+        display: block;
+        margin-top: 68px;
+    }
+}
+
+/* Blog wordpress management (end) */
+
+
+/* Blog wordpress management 2 (start) */
+
+
+
+.blog-2-img{
+    width: 400px;
+    margin: auto;
+    display: block;
+    margin-top: 150px;
+}
+
+
+
+.Blog-2-head{
+    color: black;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 66px;
+    margin-top: 173px;
+}
+
+
+.Blog-2-p{
+    color: black;
+    font-size: 13px;
+    width: 519px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+.blog-mini-2{
+    color: black;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.blog-mini-2-p::before{
+    content: "\f7d9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #BA35B3;
+    margin-left: -36px;
+    font-size: 23px;
+    margin-right: 12px;
+    position: relative;
+    top: 3px;
+}
+
+.blog-mini-2-p{
+    margin-bottom: 25px;
+    color: black;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1112px){
+    .Blog-2-p {
+        color: black;
+        font-size: 13px;
+        width: 316px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
+    .blog-2-img {
+        width: 322px;
+        margin: auto;
+        display: block;
+        margin-left: 102px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 1002px){
+    .blog-mini-2-p {
+        margin-bottom: 25px;
+        color: black;
+        line-height: 29px;
+        width: 323px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .Blog-2-head {
+        color: black;
+        font-weight: 700;
+        font-size: 56px;
+        margin-left: 55px;
+        line-height: 59px;
+        margin-top: 169px;
+    }
+
+    .Blog-2-p {
+        color: black;
+        font-size: 13px;
+        width: 316px;
+        font-weight: 600;
+        margin-left: 61px;
+        line-height: 30px;
+    }
+
+    .blog-mini-2 {
+        color: black;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-left: 61px;
+        margin-bottom: 30px;
+    }
+
+    .blog-mini-2-p {
+        margin-bottom: 25px;
+        color: black;
+        line-height: 29px;
+        margin-left: 97px;
+        width: 323px;
+        font-weight: 700;
+    }
+}
+
+@media screen and (max-width: 580px){
+    .Blog-2-head {
+        color: black;
+        font-weight: 700;
+        font-size: 56px;
+        margin-left: 20px;
+        line-height: 59px;
+        margin-top: 169px;
+    }
+
+    .Blog-2-p {
+        color: black;
+        font-size: 13px;
+        width: 316px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+
+    .blog-mini-2 {
+        color: black;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .blog-mini-2-p {
+        margin-bottom: 25px;
+        color: black;
+        line-height: 29px;
+        margin-left: 57px;
+        width: 323px;
+        font-weight: 700;
+    }
+
+    .blog-2-img {
+        width: 322px;
+        margin: auto;
+        display: block;
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 498px){
+    .Blog-2-head {
+        color: black;
+        font-weight: 700;
+        font-size: 47px;
+        width: 352px;
+        margin-left: 20px;
+        line-height: 59px;
+        margin-top: 169px;
+    }
+}
+
+@media screen and (max-width: 417px){
+    .Blog-2-head {
+        color: black;
+        font-weight: 700;
+        font-size: 38px;
+        width: 288px;
+        margin-left: 20px;
+        line-height: 59px;
+        margin-top: 169px;
+    }
+
+    .blog-mini-2-p {
+        margin-bottom: 25px;
+        color: black;
+        line-height: 29px;
+        margin-left: 57px;
+        width: 228px;
+        font-weight: 700;
+    }
+
+    .Blog-2-head {
+        color: black;
+        font-weight: 700;
+        font-size: 38px;
+        width: 288px;
+        margin-left: 20px;
+        line-height: 59px;
+        margin-top: 120px;
+    }
+
+    .blog-2-img {
+        width: 298px;
+        margin: auto;
+        display: block;
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 388px){
+    .Blog-2-head {
+        color: black;
+        font-weight: 700;
+        font-size: 38px;
+        width: 288px;
+        margin-left: 15px;
+        line-height: 59px;
+        margin-top: 120px;
+    }
+
+
+    .Blog-2-p {
+        color: black;
+        font-size: 13px;
+        width: 271px;
+        font-weight: 600;
+        margin-left: 15px;
+        line-height: 30px;
+    }
+
+
+    .blog-mini-2 {
+        color: black;
+        font-weight: 700;
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+
+    .blog-mini-2-p {
+        margin-bottom: 25px;
+        color: black;
+        line-height: 29px;
+        margin-left: 52px;
+        width: 228px;
+        font-weight: 700;
+    }
+
+    .blog-2-img {
+        width: 256px;
+        margin: auto;
+        display: block;
+        margin-left: 20px;
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 343px){
+    .Blog-2-head {
+        color: black;
+        font-weight: 700;
+        font-size: 33px;
+        width: 244px;
+        margin-left: 15px;
+        line-height: 59px;
+        margin-top: 120px;
+    }
+
+    .Blog-2-p {
+        color: black;
+        font-size: 13px;
+        width: 212px;
+        font-weight: 600;
+        margin-left: 15px;
+        line-height: 30px;
+    }
+
+    .blog-mini-2 {
+        color: black;
+        font-weight: 700;
+        margin-top: 40px;
+        line-height: 40px;
+        width: 230px;
+        font-size: 20px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 340px){
+    .Blog-2-head {
+        color: black;
+        font-weight: 700;
+        font-size: 33px;
+        width: 247px;
+        margin-left: 15px;
+        line-height: 59px;
+        margin-top: 120px;
+    }
+
+
+    .Blog-2-p {
+        color: black;
+        font-size: 13px;
+        width: 218px;
+        font-weight: 600;
+        margin-left: 15px;
+        line-height: 30px;
+    }
+
+    .blog-mini-2 {
+        color: black;
+        font-weight: 700;
+        margin-top: 40px;
+        width: 249px;
+        font-size: 22px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+
+    .blog-mini-2-p {
+        margin-bottom: 25px;
+        color: black;
+        line-height: 29px;
+        margin-left: 52px;
+        width: 218px;
+        font-weight: 700;
+    }
+}
+
+/* Blog wordpress management 2 (end) */

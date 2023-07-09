@@ -1,0 +1,902 @@
+/* body section (start) */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Body section (end) */
+
+
+/* Digital marketing section (start) */
+
+
+.digital-head{
+    font-size: 61px;
+    font-weight: 700;
+    margin-top: 172px;
+    color: black;
+    margin-bottom: 26px;
+   
+}
+
+
+.digital-p{
+    color: black;
+    font-size: 13px;
+    width: 519px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.digital-img{
+    width: 569px;
+    margin: auto;
+    display: block;
+    margin-top: 164px;
+}
+
+@media screen and (max-width: 1232px){
+    .digital-head {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 172px;
+        margin-left: 50px;
+        color: black;
+        margin-bottom: 26px;
+    }
+    
+    .digital-p {
+        color: black;
+        font-size: 13px;
+        width: 443px;
+        font-weight: 600;
+        margin-left: 50px;
+        line-height: 30px;
+    }
+
+    .digital-img {
+        width: 520px;
+        margin: auto;
+        display: block;
+        margin-top: 164px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1199px){
+    .digital-head {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 77px;
+        margin-left: -24px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+
+    .digital-p {
+        color: black;
+        font-size: 13px;
+        width: 443px;
+        font-weight: 600;
+        margin-left: -24px;
+        line-height: 30px;
+    }
+
+    .digital-img {
+        width: 520px;
+        margin: auto;
+        display: block;
+        margin-top: 211px;
+    }
+}
+
+@media screen and (max-width: 1128px){
+    .digital-img {
+        width: 520px;
+        margin: auto;
+        display: block;
+        margin-top: 211px;
+        margin-left: -24px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .digital-img {
+        width: 483px;
+        margin: auto;
+        display: block;
+        margin-top: 211px;
+        margin-left: -24px;
+    }
+}
+
+
+@media screen and (max-width: 1100px){
+    .digital-p {
+        color: black;
+        font-size: 13px;
+        width: 337px;
+        font-weight: 600;
+        margin-left: 14px;
+        line-height: 30px;
+    }
+
+    .digital-img {
+        width: 483px;
+        margin: auto;
+        display: block;
+        margin-top: 211px;
+        margin-left: -24px;
+    }
+
+    .digital-head {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 77px;
+        margin-left: 14px;
+        color: black;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .digital-head {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 77px;
+        margin-left: 76px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-p {
+        color: black;
+        font-size: 13px;
+        width: 337px;
+        font-weight: 600;
+        margin-left: 76px;
+        line-height: 30px;
+    }
+
+    .digital-img {
+        width: 483px;
+        margin: auto;
+        display: block;
+        margin-top: 211px;
+        margin-left: -50px;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .digital-head {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 77px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-p {
+        color: black;
+        font-size: 13px;
+        width: 442px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+
+    .digital-img {
+        width: 502px;
+        margin: auto;
+        display: block;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 581px){
+    .digital-head {
+        font-size: 47px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 77px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-img {
+        width: 454px;
+        margin: auto;
+        display: block;
+        margin-top: 140px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    .digital-p {
+        color: black;
+        font-size: 12px;
+        width: 346px;
+        margin-top: -9px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+
+    .digital-head {
+        font-size: 41px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 77px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-img {
+        width: 361px;
+        margin: auto;
+        display: block;
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width :428px){
+    .digital-head {
+        font-size: 54px;
+        font-weight: 700;
+        margin-top: 131px;
+        width: 225px;
+        line-height: 74px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-img {
+        width: 332px;
+        margin: auto;
+        display: block;
+        margin-top: 111px;
+        margin-left: 20px;
+    }
+
+
+    .digital-p {
+        color: black;
+        font-size: 12px;
+        width: 307px;
+        margin-top: -9px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 398px){
+    .digital-img {
+        width: 320px;
+        margin: auto;
+        display: block;
+        margin-top: 111px;
+        margin-left: 15px;
+    }
+
+    .digital-head {
+        font-size: 50px;
+        font-weight: 700;
+        margin-top: 131px;
+        width: 275px;
+        line-height: 67px;
+        margin-left: 15px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-p {
+        color: black;
+        font-size: 12px;
+        width: 302px;
+        margin-top: -9px;
+        font-weight: 600;
+        margin-left: 16px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 377px){
+    .digital-p {
+        color: black;
+        font-size: 11px;
+        width: 279px;
+        margin-top: -9px;
+        font-weight: 600;
+        margin-left: 16px;
+        line-height: 30px;
+    }
+
+    .digital-img {
+        width: 293px;
+        margin: auto;
+        display: block;
+        margin-top: 94px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:  350px){
+    .digital-p {
+        color: black;
+        font-size: 11px;
+        width: 261px;
+        margin-top: -9px;
+        font-weight: 600;
+        margin-left: 16px;
+        line-height: 30px;
+    }
+
+    .digital-img {
+        width: 271px;
+        margin: auto;
+        display: block;
+        margin-top: 87px;
+        margin-left: 15px;
+    }
+}
+
+/* Digital marketing section (end) */
+
+
+/* Digital marketing section 2 (start) */
+
+.digital-head-2{
+    font-size: 61px;
+    font-weight: 700;
+    margin-top: 172px;
+    color: black;
+    margin-bottom: 26px;
+}
+
+
+.digital-p-2{
+    color: black;
+    font-size: 13px;
+    width: 519px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.digital-img-2{
+    width: 434px;
+    margin: auto;
+    display: block;
+    margin-top: 164px
+}
+
+@media screen and (max-width: 1114px){
+    .digital-head-2 {
+        font-size: 61px;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-top: 172px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+ 
+        .digital-p-2 {
+            color: black;
+            font-size: 13px;
+            width: 348px;
+            font-weight: 600;
+            line-height: 30px;
+            margin-left: 20px;
+        }
+    
+}
+
+@media screen and (max-width: 991px){
+    .digital-img-2 {
+        width: 502px;
+        margin: auto;
+        display: block;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+
+    .digital-head-2 {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 77px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 581px){
+    .digital-img-2 {
+        width: 454px;
+        margin: auto;
+        display: block;
+        margin-top: 150px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:  510px){
+    .digital-img-2{
+        width: 361px;
+    margin: auto;
+    display: block;
+    margin-top: 120px;
+    margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 428px){
+    .digital-img-2{
+    width: 332px;
+    margin: auto;
+    display: block;
+    margin-top: 111px;
+    margin-left: 20px;
+    }
+
+    .digital-head-2 {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 113px;
+        line-height: 77px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-p-2 {
+        color: black;
+        font-size: 13px;
+        width: 332px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 398px){
+    .digital-img-2 {
+        width: 320px;
+        margin: auto;
+        display: block;
+        margin-top: 111px;
+        margin-left: 15px;
+    }
+
+  
+
+
+    .digital-head-2 {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 113px;
+        line-height: 77px;
+        margin-left: 15px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-p-2 {
+        color: black;
+        font-size: 12px;
+        width: 297px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 377px){
+    .digital-img-2 {
+        width: 293px;
+        margin: auto;
+        display: block;
+        margin-top: 110px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:  350px){
+    .digital-img-2 {
+        width: 271px;
+        margin: auto;
+        display: block;
+        margin-top: 120px;
+        margin-left: 15px;
+    }
+
+    .digital-p-2 {
+        color: black;
+        font-size: 11px;
+        width: 258px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    .digital-img-2 {
+        width: 249px;
+        margin: auto;
+        display: block;
+        margin-top: 120px;
+        margin-left: 15px;
+    }
+}
+
+/* Digital marketing section 2 (end) */
+
+/* Digital marketing section 3 (start */
+
+.digital-img-3{
+    width: 569px;
+    margin: auto;
+    display: block;
+    margin-top: 164px;
+}
+
+
+.digital-head-3 {
+    font-size: 61px;
+    font-weight: 700;
+    margin-top: 172px;
+    line-height: 85px;
+    color: black;
+    margin-bottom: 26px;
+}
+
+.digital-p-3{
+    color: black;
+    font-size: 13px;
+    width: 475px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 26px;
+}
+
+.digital-p-3::before{
+    content: "\f7d9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #BA35B3;
+    margin-left: -36px;
+    font-size: 23px;
+    margin-right: 12px;
+    position: relative;
+    top: 3px;
+}
+
+
+@media screen and (max-width: 1306px){
+    .digital-p-3 {
+        color: black;
+        font-size: 13px;
+        width: 475px;
+        font-weight: 700;
+        margin-left: 50px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+
+    .digital-head-3 {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        margin-left: 45px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-img-3 {
+        width: 476px;
+        margin: auto;
+        display: block;
+        margin-top: 223px;
+    }
+}
+
+@media screen and (max-width:  1200px){
+   
+
+    .digital-img-3 {
+        width: 476px;
+        margin: auto;
+        display: block;
+        margin-left: -20px;
+        margin-top: 223px;
+    }
+}
+
+@media screen and  (max-width: 1199px){
+    .digital-head-3 {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        margin-left: 100px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-p-3 {
+        color: black;
+        font-size: 13px;
+        width: 380px;
+        font-weight: 700;
+        margin-left: 136px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 1199px){
+    .digital-head-3 {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        margin-left: -5px;
+        color: black;
+        margin-bottom: 26px;
+    }
+    
+   
+
+    .digital-p-3 {
+        color: black;
+        font-size: 13px;
+        width: 380px;
+        font-weight: 700;
+        margin-left: -1px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1100px){
+    .digital-head-3 {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        margin-left: 57px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+
+    .digital-p-3 {
+        color: black;
+        font-size: 13px;
+        width: 380px;
+        font-weight: 700;
+        margin-left: 66px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+
+
+    .digital-img-3 {
+        width: 390px;
+        margin: auto;
+        display: block;
+        margin-left: 16px;
+        margin-top: 223px;
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .digital-head-3 {
+        font-size: 56px;
+        font-weight: 700;
+        margin-top: 172px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-p-3 {
+        color: black;
+        font-size: 13px;
+        width: 380px;
+        font-weight: 700;
+        margin-left: 24px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 840px){
+    .digital-p-3 {
+        color: black;
+        font-size: 13px;
+        width: 380px;
+        font-weight: 700;
+        margin-left: 61px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+}
+
+
+@media screen and (max-width: 510px){
+    .digital-img-3 {
+        width: 361px;
+        margin: auto;
+        display: block;
+        margin-left: 16px;
+        margin-top: 113px;
+    }
+}
+
+@media screen and (max-width: 499px){
+    .digital-p-3 {
+        color: black;
+        font-size: 12px;
+        width: 304px;
+        font-weight: 700;
+        margin-left: 61px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 439px){
+    .digital-head-3 {
+        font-size: 52px;
+        font-weight: 700;
+        margin-top: 172px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+        line-height: 75px;
+    }
+
+    .digital-p-3 {
+        color: black;
+        font-size: 12px;
+        width: 260px;
+        font-weight: 700;
+        margin-left: 61px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 407px){
+    .digital-img-3 {
+        width: 332px;
+        margin: auto;
+        display: block;
+        margin-left: 16px;
+        margin-top: 113px;
+    }
+}
+
+
+@media screen and (max-width: 398px){
+    .digital-p-3 {
+        color: black;
+        font-size: 12px;
+        width: 260px;
+        font-weight: 700;
+        margin-left: 61px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+
+    .digital-head-3 {
+        font-size: 46px;
+        font-weight: 700;
+        margin-top: 172px;
+        width: 282px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+        line-height: 71px;
+    }
+
+    .digital-img-3 {
+        width: 332px;
+        margin: auto;
+        display: block;
+        margin-left: 16px;
+        margin-top: 113px;
+    }
+}
+
+@media screen and (max-width: 377px){
+    .digital-img-3 {
+        width: 293px;
+        margin: auto;
+        display: block;
+        margin-left: 16px;
+        margin-top: 113px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .digital-p-3 {
+        color: black;
+        font-size: 12px;
+        width: 260px;
+        font-weight: 700;
+        margin-left: 49px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 344px){
+    .digital-p-3 {
+        color: black;
+        font-size: 11px;
+        width: 228px;
+        font-weight: 700;
+        margin-left: 48px;
+        line-height: 30px;
+        margin-bottom: 26px;
+    }
+
+    .digital-head-3 {
+        font-size: 41px;
+        font-weight: 700;
+        margin-top: 172px;
+        width: 253px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+        line-height: 62px;
+    }
+}
+
+@media screen and (max-width: 338px){
+    .digital-head-2 {
+        font-size: 52px;
+        font-weight: 700;
+        margin-top: 113px;
+        width: 239px;
+        line-height: 77px;
+        margin-left: 15px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .digital-img-3 {
+        width: 246px;
+        margin: auto;
+        display: block;
+        margin-left: 16px;
+        margin-top: 96px;
+    }
+}
+
+/* Digital marketing section 3 (start) */

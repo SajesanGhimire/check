@@ -1,0 +1,563 @@
+/* body section (start) */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* Body section (end) */
+
+
+/* Photography section (start) */
+
+
+.P-head{
+    font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 73px;
+        color: black;
+        margin-bottom: 26px;
+}
+
+.P-p{
+    color: black;
+    font-size: 13px;
+    width: 519px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.p-head-4-mini{
+    color: black;
+    font-weight: 700;
+    line-height: 26px;
+    width: 348px;
+    margin-top: 28px;
+}
+
+.p-head-4-mini::before{
+    content: "\f7d9";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: #BA35B3;
+            margin-left: -36px;
+            font-size: 23px;
+            margin-right: 12px;
+            position: relative;
+            top: 3px;
+}
+
+.p-img {
+    width: 420px;
+    margin: auto;
+    display: block;
+    margin-top: 178px;
+}
+
+
+@media screen and (max-width: 1327px){
+    .P-head {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 73px;
+        margin-left: 56px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+
+    .P-p {
+        color: black;
+        font-size: 13px;
+        width: 519px;
+        font-weight: 600;
+        margin-left: 57px;
+        line-height: 30px;
+    }
+
+    .p-head-4-mini {
+        color: black;
+        font-weight: 700;
+        line-height: 26px;
+        margin-left: 93px;
+        width: 348px;
+        margin-top: 28px;
+    }
+}
+
+
+@media screen and (max-width: 1199px){
+    .P-p {
+        color: black;
+        font-size: 13px;
+        width: 391px;
+        font-weight: 600;
+        margin-left: 57px;
+        line-height: 30px;
+    }
+
+   
+}
+
+/* Photography section (end) */
+
+
+/* Photography section 2 (start) */
+
+
+.photography-head-2{
+    font-size: 61px;
+    font-weight: 700;
+    margin-top: 172px;
+    line-height: 81px;
+    color: black;
+    margin-bottom: 26px;
+}
+
+.photography-p-2{
+    color: black;
+    font-size: 13px;
+    width: 519px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.p-img-2{
+    width: 420px;
+    margin: auto;
+    display: block;
+    margin-top: 172px;
+}
+
+
+@media screen and (max-width: 1199px){
+    .photography-p-2 {
+        color: black;
+        font-size: 13px;
+        width: 442px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .p-img {
+        width: 370px;
+        margin: auto;
+        display: block;
+        margin-top: 178px;
+    }
+
+    .p-img-2 {
+        width: 370px;
+        margin: auto;
+        display: block;
+        margin-top: 172px;
+    }
+
+    .photography-head-2 {
+        font-size: 55px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 71px;
+        margin-left: 56px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    
+
+    .photography-p-2 {
+        color: black;
+        font-size: 13px;
+        width: 442px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-left: 56px;
+    }
+}
+
+@media screen and (max-width: 717px){
+    .photography-head-2 {
+        font-size: 55px;
+        font-weight: 700;
+        margin-top: 172px;
+        width: 314px;
+        line-height: 78px;
+        margin-left: 56px;
+        color: black;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 569px){
+    .P-head {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 73px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+
+    .P-p {
+        color: black;
+        font-size: 13px;
+        width: 391px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+
+
+    .p-head-4-mini {
+        color: black;
+        font-weight: 700;
+        line-height: 26px;
+        margin-left: 58px;
+        width: 348px;
+        margin-top: 28px;
+    }
+
+    .photography-head-2 {
+        font-size: 55px;
+        font-weight: 700;
+        margin-top: 172px;
+        width: 314px;
+        line-height: 78px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+
+    .photography-p-2 {
+        color: black;
+        font-size: 13px;
+        width: 442px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .P-head {
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 73px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+
+    .P-p {
+        color: black;
+        font-size: 12px;
+        width: 353px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+
+
+    .p-img {
+        width: 300px;
+        margin: auto;
+        display: block;
+        margin-top: 110px;
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 1030px){
+    .photography-head-2 {
+        font-size: 55px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 71px;
+        margin-left: 8px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+
+    .photography-p-2 {
+        color: black;
+        font-size: 13px;
+        width: 380px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-left: 12px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .photography-head-2 {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 73px;
+        margin-left: 56px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .photography-p-2{
+        color: black;
+        font-size: 13px;
+        width: 391px;
+        font-weight: 600;
+        margin-left: 57px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 821px){
+    .photography-head-2 {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        width: 364px;
+        line-height: 81px;
+        margin-left: 56px;
+        color: black;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 569px){
+    .photography-head-2 {
+        font-size: 61px;
+        font-weight: 700;
+        margin-top: 172px;
+        width: 364px;
+        line-height: 81px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .photography-p-2 {
+        color: black;
+        font-size: 13px;
+        width: 391px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .p-img-2 {
+        width: 300px;
+        margin: auto;
+        display: block;
+        margin-top: 110px;
+        margin-left: 15px;
+    }
+
+  .photography-head-2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 172px;
+    line-height: 64px;
+    margin-left: 20px;
+    color: black;
+    margin-bottom: 26px;
+  }
+
+  .photography-p-2 {
+    color: black;
+    font-size: 12px;
+    width: 391px;
+    font-weight: 600;
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+.P-head {
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 132px;
+    line-height: 73px;
+    margin-left: 20px;
+    color: black;
+    margin-bottom: 26px;
+}
+}
+
+@media screen and (max-width:  460px){
+    .photography-p-2 {
+        color: black;
+        font-size: 12px;
+        width: 353px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .p-head-4-mini {
+        color: black;
+        font-weight: 700;
+        line-height: 37px;
+        margin-left: 58px;
+        width: 239px;
+        margin-top: 28px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    .photography-p-2 {
+        color: black;
+        font-size: 12px;
+        width: 268px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:  401px){
+    .P-head {
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 132px;
+        line-height: 73px;
+        margin-left: 15px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .P-p {
+        color: black;
+        font-size: 12px;
+        width: 300px;
+        font-weight: 600;
+        margin-left: 15px;
+        line-height: 30px;
+    }
+
+    .P-head {
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 132px;
+        width: 306px;
+        line-height: 73px;
+        margin-left: 15px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .p-head-4-mini {
+        color: black;
+        font-weight: 700;
+        line-height: 37px;
+        margin-left: 52px;
+        width: 239px;
+        margin-top: 28px;
+    }
+
+    .photography-head-2 {
+        font-size: 45px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 64px;
+        width: 260px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 359px){
+    .P-p {
+        color: black;
+        font-size: 12px;
+        width: 277px;
+        font-weight: 600;
+        margin-left: 15px;
+        line-height: 30px;
+    }
+
+    .P-head {
+        font-size: 37px;
+        font-weight: 700;
+        margin-top: 132px;
+        width: 254px;
+        line-height: 73px;
+        margin-left: 15px;
+        color: black;
+        margin-bottom: 26px;
+    }
+
+    .photography-head-2 {
+        font-size: 37px;
+        font-weight: 700;
+        margin-top: 172px;
+        line-height: 53px;
+        width: 260px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    .P-p {
+        color: black;
+        font-size: 11px;
+        width: 253px;
+        font-weight: 600;
+        margin-left: 15px;
+        line-height: 30px;
+    }
+    .p-img {
+        width: 252px;
+        margin: auto;
+        display: block;
+        margin-top: 110px;
+        margin-left: 15px;
+    }
+
+    .p-img-2 {
+        width: 252px;
+        margin: auto;
+        display: block;
+        margin-top: 110px;
+        margin-left: 15px;
+    }
+
+    .photography-p-2 {
+        color: black;
+        font-size: 11px;
+        width: 247px;
+        font-weight: 600;
+        margin-left: 20px;
+        line-height: 30px;
+    }
+
+    .photography-head-2 {
+        font-size: 37px;
+        font-weight: 700;
+        margin-top: 124px;
+        line-height: 53px;
+        width: 260px;
+        margin-left: 20px;
+        color: black;
+        margin-bottom: 26px;
+    }
+}
+
+/* Photography section 2 (end) */
